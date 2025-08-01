@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulariot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header><h1>Formulario</h1></header>
+
+
+   <main>
+  <section>
+
+    <div class="container">
+        <h1>Sena V1</h1>
+        <h2>Gracias por enviar tus datos </h2>
+
+    <!--Nombre-->
+    <div class="form-group">
+            <label for="fname">Nombre</label></div>
+        <div>
+            <input type="text" id="fname" required autofocus placeholder="Ingrese su nombre" pattern="[A-Za-z]{3,40}" />
+        </div>
+
+    <!--Email-->
+    <div class="form-group">
+        <label for="email">Email</label>
+    </div> 
+    <div>
+        <input type="email" id="email" required placeholder="Ingresa tu correo">
+    </div>
+
+    <!--Edad-->
+    <div class="form-group">
+        <label for="edad">Edad</label>
+    </div>
+    <div>
+        <input type="text" id="edad" required placeholder="Ingresa tu edad">
+    </div>
+    
+    <!--Opciones-->
+    <div>
+        <label>¿Te gustan los animales?</label>
+    </div>
+    <input type="radio" id="yes" name="respuesta" value="si">
+    <label for="yes">Si</label><br>
+
+    <input type="radio" id="not" name="respuesta" value="no">
+    <label for="not">No</label><br>
+
+    <input type="radio" id="maybe" name="respuesta" value="talve">
+    <label for="maybe">Tal vez</label>
+
+    <!--Lista-->
+    <div class="form-group">
+        <label for="animal">Animales</label>
+    <select id="animal" name="animales" required>
+        <option value="">Selecciona algun animalito</option>
+    
+    
+    
+    
+    </select>
+    
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </section>
+   </main>
+</body>
+</html>
